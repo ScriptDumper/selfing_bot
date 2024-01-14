@@ -1,6 +1,8 @@
 import requests
 import time
 import os
+from keep_alive import keep_alive
+keep_alive()
 
 def send_message():
     payload = {
